@@ -74,7 +74,7 @@ parse_pfr_tables <- function(tables) {
 
 if (!file.exists('data/drafts.feather')) {
   
-  draft.table <- data_frame(year = 2000:20) %>%
+  draft.table <- data_frame(year = 2000:2020) %>%
     group_by(year) %>% do({
       url <- paste('http://www.pro-football-reference.com/years/', .$year, '/draft.htm', sep ='')
       doc <- read_html(url)
