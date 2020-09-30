@@ -1,14 +1,14 @@
 # nfl_data
 
-- NFL_Project_final contains our project as a jupyter notebook (please open directly in juptyer; some parts won't work in colab)
+- **NFL_Project_final** contains our project as a jupyter notebook (please open directly in juptyer; some parts won't work in colab)
 
-- Scraper jupyter notebook contains the scraper for our NFL Draft/Combine/Collegestats Dataset
+- **Scraper** jupyter notebook contains the scraper for our NFL Draft/Combine/Collegestats Dataset
 
 - All of the necessary files and datasets are in this github repository 
 
   - Should the play-by-play dataset scraper not work: https://drive.google.com/file/d/1mgqtImjacqg3PGldo_XBCz19YDzU4Lfn/view?usp=sharing
 
-Necessary Packages (are all installed within the notebook):
+**Necessary Packages** (are all installed within the notebook):
 
   1. ggrepel 
   2. scales
